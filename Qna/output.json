@@ -1,0 +1,1907 @@
+[
+    {
+        "question": "In an uneven IT landscape, if the SAP SuccessFactors system is the primary business system, which solution should the IT landscape for SAP SuccessFactors Work Zone be aligned with?",
+        "answer": "When SAP SuccessFactors system is the primary business system, the IT landscape for SAP SuccessFactors Work Zone should be aligned with SAP SuccessFactors. Aligning with other systems like SAP S/4HANA, SAP IBP, SAP BTP, or SAP Cloud Transport Management Service would not be appropriate in this scenario.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP S/4HANA",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP IBP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP SuccessFactors",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP BTP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Cloud Transport Management Service",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "When aligning the IT landscape for SAP Build Work Zone, which primary business system should be considered if SAP S/4HANA is the main system in the landscape?",
+        "answer": "SAP Build Work Zone should be aligned with the core business system, and in this case, SAP S/4HANA is the primary business system in the landscape. Aligning with other systems like SAP IBP, SAP SuccessFactors, SAP BTP, or SAP Cloud Transport Management Service would not be appropriate in this scenario.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP S/4HANA",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP IBP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP SuccessFactors",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP BTP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Cloud Transport Management Service",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which SAP BTP service aggregates and consumes approval tasks from other SAP solutions outside of SAP Workflow service itself?",
+        "answer": "SAP Task Center is the SAP BTP service that aggregates and consumes approval tasks from SAP S/4HANA Cloud, SAP S/4HANA, SAP SuccessFactors, SAP Fieldglass, and other SAP solutions outside of SAP Workflow service itself.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Task Center",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Cloud Transport Management service",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Process Automation",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Business Application Studio",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Workflow Management",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following components are considered optional for SAP Build Work Zone? (There are 2 correct answers)",
+        "answer": "SAP Workflow service and SAP Business Application Studio are considered optional components for SAP Build Work Zone.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Workflow service",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Business Application Studio",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Cloud Identity Services",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Connectivity service",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Destination service",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which components in SAP Build Work Zone provide mobile experience options? (There are 2 correct answers)",
+        "answer": "Native mobile application and SAP Mobile Cards provide mobile experience options in SAP Build Work Zone. SAPUI5 framework and SAP Fiori design system are used for user interface and user experience but are not mobile experience options themselves.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAPUI5 framework",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Fiori design system",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Native mobile application",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Mobile Cards",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "All correct",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What are the two words that describe the SAP Build Work Zone offering?",
+        "answer": "SAP Build Work Zone comes with both a subscription and a service, providing different functionality for the solution.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Subscription and Service",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Solution and Platform",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Optional and Mandatory",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Pre-delivered and Updated",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "API and Workflow",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "How is the Digital Workplace Service (DWS) loaded into the application shell of SAP Build Work Zone?",
+        "answer": "The DWS is loaded into the application shell of SAP Build Work Zone using an HTML tag &lt;iframe&gt;, providing a single sign-on (SSO) experience between the application shell and the DWS (micro)service.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Through an HTML tag &lt;iframe&gt;",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Through an HTTP GET request",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "By embedding the DWS URL in the application shell",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Through a WebSocket connection",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "By using a REST API call",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the main purpose of the Launchpad component in SAP Build Work Zone?",
+        "answer": "The primary purpose of the Launchpad component is to provide functionality to access SAP and third-party business applications right from the user interface of SAP Build Work Zone.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To manage user authentication",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To access SAP and third-party business applications",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To create custom UI themes",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To automate and consume business workflows",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To manage user profiles",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the role of SAP Workflow service in the architecture of SAP Build Work Zone? (There are 2 correct answers)",
+        "answer": "SAP Workflow service in SAP Build Work Zone allows automating and consuming business workflows, as well as providing capabilities to execute and monitor workflows. It does not offer Business Rules, Process Visibility, Process Flexibility, integration with SAP Task Center, or low-code and pro-code extensions.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To provide capabilities to execute and monitor workflows",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To automate and consume business workflows",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To offer Business Rules, Process Visibility, and Process Flexibility",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To provide integration with SAP Task Center",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To develop low-code and pro-code extensions",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which component is used during the onboarding process of SAP Build Work Zone and typically not used beyond this process?",
+        "answer": "Work Zone Configurator is used during the onboarding process of SAP Build Work Zone and typically not used beyond this process. It helps set up fallback authentication for DWS.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Work Zone Directory",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Content Manager",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Channel Manager",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Work Zone Configurator",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Settings",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following building blocks of SAP Build Work Zone serves as the default landing page when the application is first launched?",
+        "answer": "The home page is the default landing page when SAP Build Work Zone is first launched. It is also the first menu item in the top navigation bar and cannot be disabled or hidden.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Administrative area",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Home page",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Workspace",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "News feed",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Company area",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following features are available for My Workspace? (There are 2 correct answers)",
+        "answer": "My Workspace allows users to add customized content and business apps for their day-to-day work. However, it doesn't support adding Forums, Events, or sharing content with colleagues.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Adding Forums",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Adding Events",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Customized content",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Sharing content with colleagues",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Adding business apps",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "Which of the following features are NOT offered by SAP Workflow service, but are available in SAP Workflow Management? (There are 3 correct answers)",
+        "answer": "SAP Workflow service offers execution and monitoring of workflows, but it doesn't provide Business Rules, Process Flexibility, and Process Visibility, which are available in SAP Workflow Management.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Execution of workflows",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Business Rules",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Process Flexibility",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Monitoring of workflows",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Process Visibility",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a feature of home pages in SAP Build Work Zone?",
+        "answer": "Home pages in SAP Build Work Zone feature a WYSIWYG page editor, which makes designing home pages easy for users without programming knowledge.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Ability to hide the home page from the top-level menu bar",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Requires programming knowledge for designing the home page",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "WYSIWYG page editor",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Only company administrators can design home pages",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Limited to grid-based layout options",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a capability of area administrators in SAP Build Work Zone?",
+        "answer": "Area administrators in SAP Build Work Zone have limited access to a subset of system-level capabilities, which allows them more control over the deployment and configuration of the application within their administrative area.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Full access to all system-level capabilities",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Limited access to system-level capabilities",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Creation of external home pages",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Disabling My Workspace feature",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Management of user permissions at the company level",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following IT landscape elements need to be considered when implementing SAP Build Work Zone?",
+        "answer": "All these elements are crucial in designing a well-balanced IT landscape for SAP Build Work Zone, as they help to determine how the environments will be used, integrated, tested, and how changes will be transported between them.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Environment usage",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Integration with other systems",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Testing and test management",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Transportation of changes",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "All correct",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "Which SAP BTP service aggregates approval tasks from different SAP solutions?",
+        "answer": "SAP Task Center is the standalone aggregated approval workflow app that aggregates approval tasks from different SAP solutions.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Task Center",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Workflow service",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Content Manager",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Work Zone Manager",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "All incorrect",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which SAP BTP services can be integrated with SAP Cloud Transport Management service? (There are 2 correct answers)",
+        "answer": "SAP Cloud Transport Management service supports various SAP BTP services, including SAP Build Work Zone and SAP SuccessFactors Work Zone (but only content managed within the Launchpad component).",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Build Work Zone",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP SuccessFactors Work Zone",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP S/4HANA",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP IBP",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which tab in Content Manager displays a list of business content items such as apps, groups, catalogs, and shell plugins in your subaccount?",
+        "answer": "My Content tab displays a list of business content items in your subaccount, whereas Content Explorer displays all available business content exposed by various content providers.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "My Content",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Content Explorer",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Work Zone Directory",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Channel Manager",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "All incorrect",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following types of workspaces can be found in SAP Build Work Zone? (There are 3 correct answers)",
+        "answer": "In SAP Build Work Zone, there are three types of workspaces: public workspaces, which every full-access user can view and join; private workspaces, which are hidden and can only be joined and viewed if invited; and external workspaces, which allow collaboration with people from different companies who join as external users.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Public workspaces",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "External workspaces",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Company workspaces",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Private workspaces",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Area workspaces",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Where are UI Integration Cards stored and managed? (There are 2 correct answers)",
+        "answer": "UI Integration Cards are stored and managed in the so-called host environment \u2013 SAP Build Work Zone or SAP SuccessFactors Work Zone, in the context of this learning course.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Build Work Zone",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Cloud Platform",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP SuccessFactors Work Zone",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Business Application Studio",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP HANA Database",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which service instances are required for deploying a Content Package from SAP Business Application Studio?",
+        "answer": "A service instance of SAP Build Work Zone or SAP SuccessFactors Work Zone is required for deploying a Content Package from SAP Business Application Studio. The other options mentioned are not service instances required for deploying a Content Package.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Build Work Zone or SAP SuccessFactors Work Zone",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP BTP Subaccount",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Analytics Cloud",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Cloud Platform Integration",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Web IDE",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which tool is used to create UI Integration Cards for Content Packages?",
+        "answer": "UI Integration Cards are created with SAP Business Application Studio. The other tools mentioned are not used for creating UI Integration Cards for Content Packages.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Web IDE",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Cloud Platform Integration",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Business Application Studio",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Analytics Cloud",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP SuccessFactors Work Zone",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What are the possible ways to create a Project in the Dev Space in SAP Business Application Studio? (There are 2 correct answers)",
+        "answer": "A Project in the Dev Space can be created by using the \"Start from template\" option or by cloning the source code from a corporate source code repository using the \"Clone from Git\" option.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Start from template",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Import from a zip file",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Clone from Git",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Manual creation of project files",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Create using an external IDE",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What can cause the error \"This is not a UI Integration Card\" in SAP Business Application Studio?",
+        "answer": "The error occurs when the .card subdirectory is missing in the root of the project directory. Creating an empty .card subdirectory will fix the issue. Other options may cause different errors but not specifically \"This is not a UI Integration Card\".",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "The .card subdirectory is missing in the root of the project directory.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "The manifest.json file is not properly configured.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "The SAP BTP Destination service is not set up correctly.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "There is a syntax error in the UI Integration Card code.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "The project is not cloned from a remote git repository.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the primary purpose of Guided Experiences in SAP Build Work Zone?",
+        "answer": "Option 3 is correct because Guided Experiences primarily focus on improving user experience across complex business processes and various SAP and third-party business solutions by providing a wizard-like experience. The other options are different extensibility methods in SAP Build Work Zone.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To create custom workflows",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To embed external web pages",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To improve user experience across complex business processes",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To add UI controls to the header bar",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To develop chatbots",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the role of the shell renderer instance in the development of Launchpad Plugins?",
+        "answer": "The shell renderer instance (represented as class sap.ushell.renderers.fiori2.Renderer in SAPUI5 framework) is used to interact with the header bar, user menu, and settings on the code level.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To interact with the header bar, user menu, and settings",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To create UI Integration Cards",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To deploy Launchpad Plugins to SAP BTP subaccounts",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To manage project files",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To build the MTA project",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the primary purpose of the content.json file in a Content Package project structure?",
+        "answer": "The content.json file points to development and content artifacts that must be included in the Content Package. The other options mentioned are not the primary purpose of the content.json file.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To store internationalization artifacts",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To describe the metadata of the Content Package",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To store development and content artifacts",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To point to development and content artifacts to be included in the Content Package",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To configure SAP BTP destinations",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the \"Where Used\" option for a UI Integration Card in SAP Build Work Zone?",
+        "answer": "Option 1 is correct because the context explains that the \"Where Used\" option helps track where a specific UI Integration Card is used, including home pages and workspaces. The other options describe other management features available for UI Integration Cards in SAP Build Work Zone and are therefore incorrect.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To track where a specific UI Integration Card is used.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To restrict the usage of UI Integration Cards.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To delete a UI Integration Card from SAP Build Work Zone.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To download a ZIP archive with the source code of the UI Integration Card.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To manage dependencies between UI Integration Cards.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "When using SAP Business Application Studio, what option is recommended for starting with Content Packages? (There are 2 correct answers)",
+        "answer": "Using a Project Template and including Content Samples are recommended options for starting with Content Packages in SAP Business Application Studio. The other options mentioned are not specifically recommended for starting with Content Packages.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Use a Project Template",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Clone from Git",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Include Content Samples",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Create separate Dev Spaces for UI Integration Cards and Content Packages",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Generate a deployable archive",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following services are considered more business user-oriented or functional services in the context of SAP Build Work Zone? (There are 4 correct answers)",
+        "answer": "The more business user-oriented or functional services include SAP Mobile Start, SAP Companion, Notifications, and SAP Task Center. SAP Cloud Transport Management is a more technically focused service.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Cloud Transport Management",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP Mobile Start",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Companion",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Notifications",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Task Center",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "What is a requirement for integrating SAP IBP to SAP Build Work Zone via a content provider for cloud?",
+        "answer": "A design time destination for fetching exposed content is required for integrating SAP IBP to SAP Build Work Zone via a content provider for cloud. ",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "A design time destination for fetching exposed content",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Unlimited SAP Build Work Zone systems integrated into SAP IBP system",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Simultaneous use of SAP Jam and SAP Build Work Zone for social collaboration in SAP IBP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Having an external business content provider",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "In the context of complex integration models, what role does the SAP BTP connectivity service play?",
+        "answer": "The SAP BTP connectivity service plays a critically important role in ensuring a secure connection between integrated business applications in complex integration models. It is essential for user authentication and security.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Managing user interfaces",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Ensuring a secure connection between integrated business applications",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Handling direct connections between SAP Build Work Zone and SAP BTP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Managing user authentication in SAP Build Work Zone",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Facilitating principal propagation with SAP BTP",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which component plays a critical role in ensuring a secure connection between SAP Build Work Zone and the integrated business application?",
+        "answer": "The SAP BTP connectivity service plays a critically important role in ensuring a secure connection between SAP Build Work Zone and the integrated business application.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP BTP Connectivity service",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "SAP API Management",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Destination service",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Integration Suite",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP S/4HANA Cloud",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a key consideration for complex integration models in SAP Build Work Zone?",
+        "answer": "User authentication and security are key considerations for complex integration models in SAP Build Work Zone. This is crucial to ensure a secure connection in different extensibility and integration scenarios.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "UI Integration card creation",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "User authentication and security",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Integration with other collaboration tools",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Integration with SAP Jam Collaboration",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Integration with SAP BTP",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which actions can be performed on documents stored within Microsoft SharePoint Online while using SAP Build Work Zone? (There are 2 correct answers)",
+        "answer": "Users can comment, annotate, like, download, mark as a featured item, and bookmark Microsoft SharePoint Online documents like regular content, but cannot change or delete any content. These actions need to be taken in SharePoint directly.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Edit the content",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Delete the content",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Comment on the content",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Download the content",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Change the content",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the primary use case of webhook subscriptions in the context of SAP Build Work Zone?",
+        "answer": "Webhook subscriptions are used to register for notifications of certain updates or activities within SAP Build Work Zone.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To grant immediate, short-term access to single pages.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To query data based on scope or create new content.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To register for notifications of certain updates or activities within SAP Build Work Zone.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To authenticate users using OAuth1.0a or 2.0 workflow or SAML assertions.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To enable integration across different SAP applications.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "When editing a Microsoft Office document in SAP Build Work Zone, what happens automatically to prevent other users from changing the document?",
+        "answer": "When a Microsoft Office document is edited in SAP Build Work Zone, it is automatically checked-out to prevent other users from changing the document during this time.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Document is locked",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Document is checked-out",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Document is versioned",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Document is archived",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Document is read-only",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What are the two main integration scenarios when SAP Build Work Zone is enabled in Microsoft Teams? (There are 2 correct answers)",
+        "answer": "When enabled in Microsoft Teams, SAP Build Work Zone provides two main integration scenarios: 1) SAP Build Work Zone Application in Side Panel, and 2) Integrate all Selected Workspaces in Different Channels.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Build Work Zone Application in Side Panel",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Integration with Microsoft Teams Chat",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Integrate all Selected Workspaces in Different Channels",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Access to SAP SuccessFactors HXM Suite",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Integration with Microsoft Outlook",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the limitation when using collaboration tools in SAP IBP?",
+        "answer": "You can use either SAP Jam Collaboration or SAP Build Work Zone for social collaboration in SAP IBP, but you cannot use both tools at the same time. Other collaboration tools are not supported.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "You can use only SAP Jam Collaboration",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "You can use only SAP Build Work Zone",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "You can use either SAP Jam Collaboration or SAP Build Work Zone, but not both at the same time",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "You can use both SAP Jam Collaboration and SAP Build Work Zone at the same time",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "There are no limitations on collaboration tools",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the main purpose of using Identity Authentication (IAS) in SAP Build Work Zone?",
+        "answer": "IAS is used as a proxy between SAP BTP and other identity providers (IdPs) for SAP Build Work Zone. Directly connecting a corporate identity provider to the SAP BTP subaccount is not supported, and IAS is not responsible for single-use token generation or managing user attributes.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To act as a proxy between SAP BTP and other identity providers (IdPs)",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To directly connect a corporate identity provider to the SAP BTP subaccount",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To provide a single-use token for Digital Workplace Service (DWS) authentication",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To create shadow users during logon",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To manage user attributes in SAP Build Work Zone",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the main purpose of Role Collections in the security architecture of SAP Build Work Zone?",
+        "answer": "Role Collections are used to define and manage user access permissions in the security architecture of SAP Build Work Zone.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To provision users",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To authenticate users",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To define and manage user access permissions",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To create user lists",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To provide a user interface",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the main purpose of shadow users in SAP Build Work Zone?",
+        "answer": "Shadow users are created to replicate users from an external IdP and to store required user data in the local database. They allow external users to access the SAP Build Work Zone environment while maintaining their authentication and authorization data.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To store user-specific settings and preferences",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To replicate users from an external IdP",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To store authorization information for local users",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To provide a temporary user for testing purposes",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To create a backup of users for redundancy purposes",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following are available when connecting to the second SCIM 2.0 API for user and user list management in the Digital Workplace (DWS) layer? (There are 3 correct answers)",
+        "answer": "When connecting to the second SCIM 2.0 API, it is important to use the Digital Workplace Service",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Use the Digital Workplace Service (DWS) URL.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Use the SAP Build Work Zone subscription URL from SAP BTP.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Authentication using 2-legged OAuth.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Use any OAuth client.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Use the Workzone API Client OAuth client.",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "Which of the following elements are directly impacted by the trust setup information for SAP Build Work Zone?",
+        "answer": "The trust setup information directly impacts user attributes in the Users list, Connectivity Destinations, Principal Propagation to on-premise backend systems, and the user avatar in SAP Build Work Zone shell header.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "User attributes in the Users list",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Connectivity Destinations",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Principal Propagation to on-premise backend systems",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "User avatar in SAP Build Work Zone shell header",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "All correct",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "Which of the following best describes the function of the DWS component in SAP Build Work Zone?",
+        "answer": "The DWS component in SAP Build Work Zone is responsible for user persistence and role assignment.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "User authentication",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "User interface management",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "User provisioning",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "User persistence and role assignment",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Network security management",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following user lists are supported in SAP Build Work Zone's DWS component? (There are 2 correct answers)",
+        "answer": "SAP Build Work Zone's DWS component supports user lists created via the DWS admin UI and imported user lists provisioned through a dedicated API.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "User lists created via the DWS admin UI",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Imported user lists provisioned through a dedicated API",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "User lists created manually",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "User lists created via LDAP",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "User lists created via OAuth 2.0",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following can be used as a unique identifier in the userIdSource property of the \"JAM\" destination? (There are 3 correct answers)",
+        "answer": "The userIdSource property can refer to different assertion attributes, such as user_uuid, email, or SCIM.externalId, depending on the desired unique identifier.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "user_uuid",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "email",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SCIM.userName",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SCIM.externalId",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is the correct way to connect to the second SCIM 2.0 API for user and user list management in the Digital Workplace (DWS) layer?",
+        "answer": "Connecting to the second SCIM 2.0 API for user and user list management in the DWS layer should be done using the Digital Workplace Service (DWS) URL and 2-legged OAuth with the Workzone API Client OAuth client.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Using the Digital Workplace Service (DWS) URL and 2-legged OAuth with the Workzone API Client OAuth client.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Using the SAP Build Work Zone subscription URL from SAP BTP and 2-legged OAuth with any OAuth client.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Using the Digital Workplace Service (DWS) URL and 3-legged OAuth with the Workzone API Client OAuth client.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Using the SAP Cloud Identity Services API with 2-legged OAuth and the Workzone API Client OAuth client.",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Using the SAP Cloud Identity Provisioning API and 2-legged OAuth with any OAuth client.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which API is used for managing role collections?",
+        "answer": "XSUAA SCIM API is used for managing role collections.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "XSUAA SCIM API",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "DWS SCIM API",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Cloud Identity Services API",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "SAP Cloud Identity Provisioning API",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "SAP Build Work Zone API",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which test management tools are recommended for SAP Build Work Zone? (There are 3 correct answers)",
+        "answer": "SAP Solution Manager, Tricentis Tosca, and SAP Cloud ALM are recommended for test management in the SAP ecosystem, including SAP Build Work Zone. The other tools can be used for general test management but are not specifically recommended for the SAP ecosystem.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "SAP Solution Manager",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Tricentis Tosca",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "SAP Cloud ALM",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "HP Quality Center",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "JIRA",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following team setups are responsible for providing support in SAP Build Work Zone? (There are 3 correct answers)",
+        "answer": "The support model for SAP Build Work Zone includes the Security Team, responsible for overall authentication and access; the Platform Team, responsible for SAP BTP and functional support; the Development Team, responsible for development support for extensions; and the Integration Team, responsible for integration support.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Security Team",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Software Engineer",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Development Team",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Integration Team",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "User Experience Team",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following examples is NOT an SAP Build Work Zone extension requirement?",
+        "answer": "Displaying SAP Fiori apps using Content Federation is not an extension requirement, as it is part of the standard functionality of SAP Build Work Zone. The other options are examples of extension requirements.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "Showing interactive list of sales orders from SAP S/4HANA",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Showing link to change user password in the user menu",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Displaying SAP Fiori apps using Content Federation",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "Showing tickets from third party IT Service Management solution, such as ServiceNow",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Showing corporate news",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "Which of the following activities are covered in the Realize Phase of SAP Activate for SAP Build Work Zone implementation projects? (There are 4 correct answers)",
+        "answer": "The Realize Phase of SAP Activate for SAP Build Work Zone implementation projects includes activities such as System Configuration and Solution Walkthrough, Integration Setup, Data Preparation and Load, End-User Training Plan and Execution, and Project Management Execution, Monitoring, and Controlling.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "System Configuration and Solution Walkthrough",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "Integration Setup",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "Hybrid Transition",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "End-User Training Plan and Execution",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "Project Management Execution, Monitoring, and Controlling",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of executing the Booster for SAP Build Work Zone or SAP SuccessFactors Work Zone?",
+        "answer": "The purpose of executing the Booster for SAP Build Work Zone or SAP SuccessFactors Work Zone is to enable necessary subscriptions and services, generate destinations, create role collections, and so on.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To create a subscription in SAP BTP subaccount",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To enable necessary subscriptions and services, generate destinations, create role collections, etc.",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To configure the Work Zone Configurator",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To set up additional SAP BTP services",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To design and develop integration business logic",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Prepare Integration Setup task?",
+        "answer": "The purpose of the Prepare Integration Setup task is to connect SAP Build Work Zone to systems such as SAP S/4HANA, SAP IBP, and SAP SuccessFactors.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To design and develop integration business logic",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To connect SAP Build Work Zone to systems such as SAP S/4HANA, SAP IBP, and SAP SuccessFactors",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To create a subscription in SAP BTP subaccount",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To set up additional SAP BTP services",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To prepare for and conduct the Fit-to-Standard Analysis during the next phase",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the primary purpose of the Run Phase of SAP Activate, with a focus on SAP Build Work Zone implementation project?",
+        "answer": "The primary purpose of the Run Phase is to maintain IT systems in functioning and operating condition, guaranteeing systems availability, and required performance levels, in order to support the execution of the enterprise's business operations. Other options are related to different phases of the SAP Activate methodology.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To execute the new cloud system learning plan",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To optimize user adoption",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To maintain IT systems in functioning and operating condition",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To prepare the Cutover Plan",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To switch business operations to the new digital experience",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the main goal of the Customer Team Self-Enablement task in the Prepare Phase of SAP Activate?",
+        "answer": "The main goal of the Customer Team Self-Enablement task is to enhance the customer's knowledge of SAP Build Work Zone and related technologies, such as SAP BTP and SAP Cloud Identity Services.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To provision the system",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To connect to SAP BTP services",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To enhance the customer's knowledge of SAP Build Work Zone and related technologies",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To create a project plan",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To set up additional SAP BTP services",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Deploy Phase in SAP Activate? (There are 3 correct answers)",
+        "answer": "The purpose of the Deploy Phase is to set up the production tenant of SAP Build Work Zone or SAP SuccessFactors Work Zone, confirm organization readiness, and switch business operations to the new digital experience. The purpose of the Run Phase is to further optimize and automate the operability of the solution.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To set up the production tenant of SAP Build Work Zone or SAP SuccessFactors Work Zone",
+                "correct": 1
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To confirm organization readiness",
+                "correct": 1
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To switch business operations to the new digital experience",
+                "correct": 1
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To further optimize and automate the operability of the solution",
+                "correct": 0
+            },
+            {
+                "answerNbr": 4,
+                "answer": "All correct",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "question": "In the Run Phase of SAP Activate, what is the primary purpose of establishing a regular feedback channel from users?",
+        "answer": "When the digital experience with SAP Build Work Zone is live, it is important to establish a regular feedback channel from the users to make continuous improvements to the digital experience.",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "To update the Cutover Plan",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "To improve the project management process",
+                "correct": 0
+            },
+            {
+                "answerNbr": 2,
+                "answer": "To enhance the organization's readiness",
+                "correct": 0
+            },
+            {
+                "answerNbr": 3,
+                "answer": "To make continuous improvements to the digital experience",
+                "correct": 1
+            },
+            {
+                "answerNbr": 4,
+                "answer": "To support the execution of the enterprise's business operations",
+                "correct": 0
+            }
+        ]
+    }
+]
