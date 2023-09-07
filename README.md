@@ -51,7 +51,7 @@ To use this tool, follow these steps:
 1. Run the script:
 
    ```bash
-   python qna.py
+   python Qna.py
    ```
 
 2. The script will prompt you for the URL of the webpage containing the MCQs.
@@ -66,16 +66,25 @@ To use this tool, follow these steps:
 
 ## Configuration
 
-You can configure the tool by modifying the `config.json` file. This file allows you to customize various settings such as the file format for saving MCQs, login credentials for the target website, and more.
+You can configure the tool by modifying the `Output.json` file. This file allows you to customize various settings such as the file format for saving MCQs, login credentials for the target website, and more.
 
 ```json
 {
-  "output_format": "txt",
-  "target_website": {
-    "url": "https://example.com",
-    "username": "your_username",
-    "password": "your_password"
-  }
+   "question": "your question here",
+        "answer": "your answer",
+        "categories": [],
+        "mchoice": [
+            {
+                "answerNbr": 0,
+                "answer": "a",
+                "correct": 0
+            },
+            {
+                "answerNbr": 1,
+                "answer": "b",
+                "correct": 0
+            }
+      ]
 }
 ```
 
