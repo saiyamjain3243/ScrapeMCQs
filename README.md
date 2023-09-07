@@ -1,6 +1,6 @@
 # Web Scraping and MCQ Upload Tool
 
-This Python script allows you to scrape multiple-choice questions (MCQs) from a webpage and then upload them to another website, saving you valuable time in the process.
+This Python script allows you to scrape multiple-choice questions (MCQs) via HTML content of a specific website and then upload them to another website, saving you valuable time in the process. This project has a very specific case but automation code is multipurpose and can be used in numerous use cases.
 
 ## Table of Contents
 - [Introduction](#introduction)
