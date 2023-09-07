@@ -29,19 +29,19 @@ You can install Python from the official website: [Python Downloads](https://www
 1. Clone this GitHub repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/saiyamjain3243/ScrapeMCQs/
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-repo-name
+   cd https://github.com/saiyamjain3243/ScrapeMCQs/
    ```
 
 3. Install the required Python packages using pip:
 
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r beautifulsoup4
    ```
 
 ## Usage
@@ -51,7 +51,7 @@ To use this tool, follow these steps:
 1. Run the script:
 
    ```bash
-   python scrape_and_upload.py
+   python qna.py
    ```
 
 2. The script will prompt you for the URL of the webpage containing the MCQs.
